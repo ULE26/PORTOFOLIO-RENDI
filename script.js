@@ -18,8 +18,8 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // GANTI data kontak di bawah ini sebelum website dipublikasikan.
-const emailKamu = "emailkamu@example.com";
-const nomorWhatsApp = "6280000000000"; // Format internasional tanpa tanda + atau spasi.
+const emailKamu = "rendunurdiansyah42@gmail.com";
+const nomorWhatsApp = "6281282059326"; // Format internasional tanpa tanda + atau spasi.
 document.getElementById("emailLink").href = `mailto:${emailKamu}`;
 document.getElementById("waLink").href = `https://wa.me/${nomorWhatsApp}`;
 
